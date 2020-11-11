@@ -1,0 +1,70 @@
+GET http://localhost:3000/search/platform/Reddit
+
+###
+POST http://localhost:3000/posts
+Content-Type:application/json
+
+{
+    "title":"Fundraise",
+    "content":"Please help to save the people of Armenia ,listen to SOAD and fund their new album :)",
+    "author":"Chris Theo",
+    "platform":"Reddit"
+}
+###
+POST http://localhost:3000/posts
+Content-Type:application/json
+
+{
+    "title":"Searching for jazz artists",
+    "content":"Can you suggest any good jazz artist with hip/hop elements? ",
+    "author":"Chris Theo",
+    "platform":"Soundcloud"
+
+}
+
+###
+POST http://localhost:3000/posts
+Content-Type:application/json
+
+{
+    "title":"Looking for waitress",
+    "content":"Looking to hire a young waitress ,full time job in high-class italian restaurant in the centre of NY",
+    "author":"Papa De Martino",
+    "platform":"LinkedIn"
+}
+
+###
+POST http://localhost:3000/posts
+Content-Type:application/json
+
+{
+    "title":"Back-end engineer",
+    "content":"Looking for a node.js express.js and NoSql partner for CERTH/ITI  (hehe) ",
+    "author":"CERTH ITI",
+    "platform":"LinkedIn"
+}
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title":"Be yourself",
+    "content":"Attempt to write a motivational post ,not working...",
+    "author":"American Motivator",
+    "platform":"Twitter"
+}
+
+###
+PATCH http://localhost:3000/posts/5fac0239b46fd0064881912c
+Content-Type:application/json
+
+{
+    "author":"Vicent Corleone",
+    "title":" restaurant service"
+}
+
+###
+DELETE http://localhost:3000/posts/5fac10a33fb2630874ea915c
+
+###
+GET  http://localhost:3000/search/platform/Reddit3423
