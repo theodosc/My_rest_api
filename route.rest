@@ -67,4 +67,4 @@ Content-Type:application/json
 DELETE http://localhost:3000/posts/5fac10a33fb2630874ea915c
 
 ###
-GET  http://localhost:3000/search/platform/Reddit3423
+GET  http://localhost:3000/search/platform/Reddit
